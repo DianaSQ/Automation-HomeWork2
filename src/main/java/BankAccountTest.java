@@ -25,7 +25,7 @@ public class BankAccountTest {
             System.out.println("Сумма снятия больше чем остаток на счету!");
         } return balance -= minusSum;
     }
-
+    
     public static void main(String[] args) {
         BankAccount bankaccount = new BankAccount();
         bankaccount.setBalance(300);

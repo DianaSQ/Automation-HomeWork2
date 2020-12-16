@@ -36,7 +36,6 @@ public class JUnitTestFirst {
         double actualResult = bankaccount.debit(minusSum2);
         Assert.assertEquals(35, actualResult, 10);
     }
-
 }
 
 
